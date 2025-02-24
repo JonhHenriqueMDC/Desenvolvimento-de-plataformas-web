@@ -1,0 +1,54 @@
+.logo{
+    display: flex;
+    justify-content: center;
+
+}
+
+img{
+    padding-top: 25px;
+    padding-right: 20px;
+}
+
+#menu{
+    background-color: #044cf4;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 25px 0 25px;
+}
+
+
+#menu a {
+    color: white;
+    text-decoration: none;
+}
+
+#menu li{
+    margin: 14px;
+    list-style-type: none;
+}
+
+#menu a:hover{
+    color: #080808;
+}
+
+
+.menusport{
+    display: grid;
+}
+
+section{
+    padding-top: 12px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #044cf4;
+    color: white;
+}
+
+header h2{
+    display: flex;
+    justify-content: center;
+}
