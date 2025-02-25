@@ -1,0 +1,112 @@
+.logo{
+    display: flex;
+    justify-content: center;
+
+}
+
+img{
+    padding-top: 25px;
+    padding-right: 20px;
+}
+
+#menu{
+    background-color: #044cf4;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 25px 0 25px;
+}
+
+
+#menu a {
+    color: white;
+    text-decoration: none;
+}
+
+#menu li{
+    margin: 14px;
+    list-style-type: none;
+}
+
+#menu a:hover{
+    color: #080808;
+}
+
+
+.menusport{
+    display: grid;
+}
+
+section{
+    padding-top: 12px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #044cf4;
+    color: white;
+}
+
+header h2{
+    display: flex;
+    justify-content: center;
+}
+
+
+.esportes {
+    text-align: center;
+    padding: 20px;
+}
+
+
+.grid-esportes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+
+.sport {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+
+.sport img {
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+
+.sport:hover img {
+    transform: scale(1.1);
+}
+
+
+.sport p {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+
+.sport:hover p {
+    opacity: 1;
+}
